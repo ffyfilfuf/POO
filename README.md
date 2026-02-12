@@ -1,4 +1,4 @@
-![GitHub License](https://img.shields.io/github/license/ffyfilfuf/https%3A%2F%2Fgithub.com%2Fffyfilfuf%2FPOO.git)
+![GitHub License](https://img.shields.io/github/license/ffyfilfuf/POO)
 
 # Atividades práticas da disciplina de Programação Orientada a Objetos
 
