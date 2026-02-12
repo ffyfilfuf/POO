@@ -21,7 +21,7 @@ Ele é necessário porque o GitHub não permite mais o uso de senha para essas o
 1. Em Developer settings
 1. Personal access tokens
 1. Vá em Token
-1. Por fim em Generate new token
+1. Por fim em Generate new token (classic)
 
 ### Salvar em cache as credenciais do PAT
 Salvar em cache as credenciais do Personal Access Token (PAT) evita que o usuário precise informar o token manualmente a cada operação com o GitHub. Isso torna o fluxo de trabalho mais ágil e produtivo, reduz interrupções e minimiza erros de digitação. Além disso, o armazenamento em cache mantém a autenticação válida durante a sessão configurada, facilitando o uso contínuo do repositório
@@ -32,3 +32,8 @@ git config --global credential.helper 'cache --timeout=3600'
 
 ## Qual a diferença entre git merge e git rebase?
 
+Tanto o git merge quanto o git rebase servem para juntar alterações de uma branch em outra, mas fazem isso de jeitos diferentes.
+
+O git merge junta as duas branches e cria um commit de merge. Ele mantém todo o histórico original. É mais seguro para usar em branches que já foram compartilhadas com outras pessoas.
+
+Já o git rebase “move” seus commits para o topo da outra branch, como se você tivesse começado a trabalhar a partir da versão mais atual. Ele deixa o histórico mais linear e organizado, mas reescreve os commits. Por isso, é melhor usar em branches locais que ainda não foram enviadas para o remoto.
