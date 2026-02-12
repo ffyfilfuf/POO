@@ -9,6 +9,8 @@
 git config --global user.name "Seu nome"
 
 git config --global user.email "Seu email"
+
+git config --global alias.tree "log --oneline --graph --decorate --all"
 ```
 
 ### Criando Personal Access Token (PAT) no GitHub
@@ -18,6 +20,7 @@ Ele é necessário porque o GitHub não permite mais o uso de senha para essas o
 
 1. Clique na foto do usuário
 1. Vá em Settings
+git config --global alias.tree "log --oneline --graph --decorate --all"
 1. Em Developer settings
 1. Personal access tokens
 1. Vá em Token
