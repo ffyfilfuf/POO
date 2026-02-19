@@ -1,4 +1,4 @@
-![GitHub License](https://img.shields.io/github/license/ffyfilfuf/POO)
+![GitHub License](https://img.shields.io/github/license/ArthurdeOliv/POO)
 
 # Atividades práticas da disciplina de Programação Orientada a Objetos
 
